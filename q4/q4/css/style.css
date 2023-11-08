@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+.box1{
+    display: table;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.all--box .box1:first-child{
+    margin-top: 0;
+}
+
+.text{
+    display: table-cell;
+    text-align: center;
+    padding: 20px;
+}
+.red--box{
+    background: #ff7b7b;
+    width: 300px;
+}
+
+.purple--box{
+    background: #7b86ff;    
+}
+
+.yellow--box{
+    width: 300px;
+    background: #fff27b;
+}
+
+.green--box{
+    background: #7bff91;
+}
+
+.pink--box{
+    width: 400px;
+    background: #ff7be2;
+}
+
+.orange--box{
+    width: 400px;
+    background: #ffc67b;
+}
+
+.bule--box{
+    background: #7bf2ff;
+}

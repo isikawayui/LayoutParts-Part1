@@ -1,1 +1,32 @@
 @charset "UTF-8";
+.table-layout{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-layout th{
+    background: #319c4a;
+    line-height: 26px;
+    font-size: 18px;
+}
+.table-layout td{
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.table-layout th,.table-layout td{
+    padding: 10px;
+    border: 1PX solid #000000;    
+}
+
+.table-layout tr{
+    background: #d5ffc7;
+}
+
+.table-layout tr:nth-child(even){
+    background: #bcbcbc;
+}
+.table-layout tbody tr:last-child{
+    border-top: 1px double #fff;
+}
