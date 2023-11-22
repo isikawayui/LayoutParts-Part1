@@ -9,9 +9,14 @@
 .card {
     list-style: none;
     width: 200px;
-    margin: 30px;
+    
     background: #d2b48d;
     outline: 10px solid #655;    
     border-radius: 13px;
     padding: 10px
+}
+
+.text{
+    margin-left: 60px;
+    margin-right: 60px;
 }
